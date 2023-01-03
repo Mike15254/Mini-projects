@@ -1,1 +1,1 @@
-# A Theme toggler
+# A couple of mini-projects
