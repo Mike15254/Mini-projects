@@ -27,6 +27,12 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
+nav::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
 main {
   margin-left: 5rem;
   padding: 1rem;
@@ -114,7 +120,8 @@ main {
   transition: var(--transition-speed);
 }
 
-.logo-text {
+.logo-text
+{
   display: inline;
   position: absolute;
   left: -999px;
@@ -166,11 +173,13 @@ main {
     display: inline;
   }
 
-  .navbar:hover .logo svg {
+  .navbar:hover .logo svg
+  {
     margin-left: 11rem;
   }
 
-  .navbar:hover .logo-text {
+  .navbar:hover .logo-text
+  {
     left: 0px;
   }
 }
